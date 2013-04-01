@@ -4,7 +4,7 @@ require 'shared/models'
 require 'qu'
 require 'qu-immediate'
 
-describe Async do
+describe "Async qu" do
   before(:all) do
     Qu.backend = Qu::Backend::Immediate.new
     Async.backend = Async::QuBackend

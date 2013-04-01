@@ -4,7 +4,7 @@ require 'shared/models'
 require 'redis'
 require 'resque'
 
-describe Async do
+describe "Async resque" do
   before(:all) do
     Resque.redis = Redis.new
     Async.backend = Async::ResqueBackend

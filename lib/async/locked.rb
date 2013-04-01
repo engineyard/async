@@ -69,13 +69,12 @@ class Async
     end
 
     def lock
-      locked_out = redis.getset(@lock_name, "locked")
-      if locked_out
-        return false
-      else
+      if redis.setnx(@lock_name, "locked")
         refresh!
         Notifications.notify_lock("lock", @lock_name)
         return true
+      else
+        return false
       end
     end
 

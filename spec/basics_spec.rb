@@ -19,7 +19,7 @@ class TestBackend
   end
 end
 
-describe Async do
+describe "Async basics" do
   before(:all) do
     @test_backend = TestBackend.new
     Async.backend = @test_backend

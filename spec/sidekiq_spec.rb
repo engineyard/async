@@ -3,7 +3,7 @@ require 'async/sidekiq'
 require 'shared/models'
 require 'sidekiq/testing'
 
-describe Async do
+describe "Async sidekiq" do
   before(:all) do
     Async.backend = Async::SidekiqBackend
   end
