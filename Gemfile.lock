@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    async (0.0.1)
+    async (0.3.17)
 
 GEM
   remote: https://rubygems.org/
