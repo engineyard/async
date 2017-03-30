@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    async (0.3.17)
+    async-jobs (0.0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -54,10 +54,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  async!
+  async-jobs!
   cubbyhole
   qu
   redis
   resque
   rspec
   sidekiq
+
+BUNDLED WITH
+   1.12.5

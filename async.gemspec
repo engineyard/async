@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "async/version"
 
 Gem::Specification.new do |s|
-  s.name = "async"
+  s.name = "async-jobs"
   s.version = Async::VERSION
   s.author = "Jacob"
   s.email = "jacob@engineyard.com"
-  s.homepage = "https://github.com/jacobo/async"
+  s.homepage = "https://github.com/engineyard/async"
   s.summary = "abstraction over background job systems"
 
   s.files         = `git ls-files`.split("\n")

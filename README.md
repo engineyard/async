@@ -6,6 +6,8 @@ Zero explicit dependencies. (just respond to `id` and `find` like AR does)
 
 ##Example
 
+gem is called `async-jobs`
+
 ```ruby
   require 'async'
   require 'async/resque'
