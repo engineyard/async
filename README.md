@@ -1,10 +1,10 @@
-#Yet another background processing abstraction layer
+# Yet another background processing abstraction layer
 
 Assuming that every time you want to do something in a background job, it's defined in a method on an active record object.
 
 Zero explicit dependencies. (just respond to `id` and `find` like AR does)
 
-##Example
+## Example
 
 gem is called `async-jobs`
 
